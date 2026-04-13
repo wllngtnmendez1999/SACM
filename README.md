@@ -14,18 +14,18 @@
 
 <hr>
 
-<h2>📌 Descripción</h2>
+<h2> Descripción</h2>
 <p>
 El SACM es un sistema diseñado para optimizar la gestión de citas médicas,
 permitiendo organizar la interacción entre pacientes, médicos y personal administrativo.
 </p>
 
-<h2>🎯 Problemática</h2>
+<h2> Problemática</h2>
 <ul>
-<li>❌ Duplicidad de citas</li>
-<li>❌ Procesos manuales</li>
-<li>❌ Falta de control de horarios</li>
-<li>❌ Dificultad para generar reportes</li>
+<li> Duplicidad de citas</li>
+<li> Procesos manuales</li>
+<li> Falta de control de horarios</li>
+<li> Dificultad para generar reportes</li>
 </ul>
 
 <h2>💡 Solución</h2>
@@ -77,7 +77,7 @@ JOIN Medico m ON c.id_medico = m.id_medico;
 <li>Roldyn Espinal</li>
 </ul>
 
-<h2>📌 Estado del Proyecto</h2>
+<h2> Estado del Proyecto</h2>
 <p><strong>En desarrollo académico</strong></p>
 
 <hr>
