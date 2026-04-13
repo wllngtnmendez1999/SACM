@@ -6,10 +6,12 @@
 <p>
 <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-yellow" />
 <img src="https://img.shields.io/badge/Tipo-Académico-blue" />
-<img src="https://img.shields.io/badge/Base%20de%20Datos-MySQL-orange" />
 <img src="https://img.shields.io/badge/Modelado-UML-green" />
 <img src="https://img.shields.io/badge/Lenguaje-SQL-lightgrey" />
 <img src="https://img.shields.io/badge/Version-1.0-brightgreen" />
+<img src="https://img.shields.io/github/repo-size/TU-USUARIO/TU-REPO" />
+<img src="https://img.shields.io/github/last-commit/TU-USUARIO/TU-REPO" />
+<img src="https://img.shields.io/github/languages/top/TU-USUARIO/TU-REPO" />
 </p>
 
 <hr>
