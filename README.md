@@ -8,8 +8,8 @@
     <p>Proyecto de Análisis y Diseño de Sistemas</p>
 </header>
 
-<section>
-    <h2>📌 Descripción</h2>
+
+    <h2> Descripción</h2>
     <p>
         El SACM es un sistema diseñado para optimizar la gestión de citas médicas,
         permitiendo organizar la interacción entre pacientes, médicos y personal administrativo.
