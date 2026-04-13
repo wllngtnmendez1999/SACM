@@ -28,7 +28,7 @@ permitiendo organizar la interacción entre pacientes, médicos y personal admin
 <li> Dificultad para generar reportes</li>
 </ul>
 
-<h2>💡 Solución</h2>
+<h2> Solución</h2>
 <ul>
 <li>✔ Agendamiento en línea</li>
 <li>✔ Disponibilidad en tiempo real</li>
@@ -36,7 +36,7 @@ permitiendo organizar la interacción entre pacientes, médicos y personal admin
 <li>✔ Generación de reportes</li>
 </ul>
 
-<h2>🧩 Módulos del Sistema</h2>
+<h2> Módulos del Sistema</h2>
 <ul>
 <li>👤 Usuarios</li>
 <li>🧑 Pacientes</li>
@@ -46,7 +46,7 @@ permitiendo organizar la interacción entre pacientes, médicos y personal admin
 <li>📊 Reportes</li>
 </ul>
 
-<h2>⚙️ Tecnologías</h2>
+<h2> Tecnologías</h2>
 <p>
 <span style="background:#ddd; padding:5px 10px; border-radius:5px;">MySQL</span>
 <span style="background:#ddd; padding:5px 10px; border-radius:5px;">UML</span>
