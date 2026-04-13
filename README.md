@@ -2,7 +2,7 @@
 <html lang="es">
 
 <body>
-
+</section>
 <header>
     <h1>🏥 Sistema de Agendamiento de Citas Médicas (SACM)</h1>
     <p>Proyecto de Análisis y Diseño de Sistemas</p>
