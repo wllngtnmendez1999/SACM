@@ -1,0 +1,57 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Página-1" id="aAbEAhn-yEAkiOmK2FLj">
+    <mxGraphModel dx="1678" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-6" edge="1" parent="1" source="FbP9Kbc6uFUuJ3TiMXAJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbP9Kbc6uFUuJ3TiMXAJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="646" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;b&gt;&lt;i&gt;ROL&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;PK id_rol&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="344" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-24" edge="1" parent="1" source="FbP9Kbc6uFUuJ3TiMXAJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FbP9Kbc6uFUuJ3TiMXAJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-25" edge="1" parent="1" source="FbP9Kbc6uFUuJ3TiMXAJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FbP9Kbc6uFUuJ3TiMXAJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" value="&lt;div&gt;&lt;b&gt;USUARIO&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PK id_usuario INT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;nombre VARCHAR&lt;/div&gt;&lt;div&gt;correo VARCHAR&lt;/div&gt;&lt;div&gt;password VARCHAR&lt;/div&gt;&lt;div&gt;FK id_rol INT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="170" x="329" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="&lt;div&gt;&lt;b&gt;PACIENTE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;PK id_paciente&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellido&lt;/div&gt;&lt;div&gt;cedula&lt;/div&gt;&lt;div&gt;telefono&lt;/div&gt;&lt;div&gt;FK id_usuario&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="156" x="606" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-28" edge="1" parent="1" source="FbP9Kbc6uFUuJ3TiMXAJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="FbP9Kbc6uFUuJ3TiMXAJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" value="&lt;div&gt;&lt;b&gt;MEDICO&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;PK id_medico&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;telefono&lt;/div&gt;&lt;div&gt;FK id_usuario&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="66" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="&lt;div&gt;&lt;b&gt;CITA&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;PK id_cita INT&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;fecha DATE&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;hora TIME&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;FK id_paciente INT&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;FK id_medico INT&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;FK id_estado INT&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;FK id_consultorio INT&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="178" x="336" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-29" edge="1" parent="1" source="FbP9Kbc6uFUuJ3TiMXAJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="FbP9Kbc6uFUuJ3TiMXAJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="&lt;div&gt;&lt;b&gt;ESTADO_CITA&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;PK id_estado&lt;/div&gt;&lt;div&gt;estado&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="606" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" value="&lt;div&gt;&lt;b&gt;CONSULTORIO&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-----------&lt;/div&gt;&lt;div&gt;PK id_consultorio&lt;/div&gt;&lt;div&gt;numero&lt;/div&gt;&lt;div&gt;ubicacion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="150" x="106" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-26" edge="1" parent="1" source="FbP9Kbc6uFUuJ3TiMXAJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1.022;entryY=0.453;entryDx=0;entryDy=0;entryPerimeter=0;" target="FbP9Kbc6uFUuJ3TiMXAJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-30" edge="1" parent="1" source="FbP9Kbc6uFUuJ3TiMXAJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.337;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="FbP9Kbc6uFUuJ3TiMXAJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FbP9Kbc6uFUuJ3TiMXAJ-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="El siguiente diagrama muestra el esquema relacional del Sistema de Agendamiento de Citas Médicas, donde se identifican las claves primarias (PK), claves foráneas (FK) y las relaciones entre las tablas." vertex="1">
+          <mxGeometry height="30" width="440" x="194" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
